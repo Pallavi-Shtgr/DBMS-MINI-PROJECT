@@ -38,7 +38,7 @@ session_start();
 			if($picError === 0)
 			{
 				$_SESSION['productPicId'] = $_SESSION['id'];
-				$picNameNew = $productName.$_SESSION['productPicId'].".jpg".$picActualExt ;
+				$picNameNew = $productName.$_SESSION['productPicId'].".jpeg".$picActualExt ;
 				$_SESSION['productPicName'] = $picNameNew;
 				$_SESSION['productPicExt'] = $picActualExt;
 				$picDestination = "images/productImages/".$picNameNew;
@@ -84,7 +84,7 @@ session_start();
 ?>
 
 
-
+//The html code begins//
 
 <!DOCTYPE html>
 <html lang="en">
