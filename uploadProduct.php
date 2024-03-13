@@ -84,7 +84,7 @@ session_start();
 ?>
 
 
-//The html code begins//
+
 
 <!DOCTYPE html>
 <html lang="en">
