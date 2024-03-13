@@ -36,6 +36,7 @@
     {
         $_SESSION['message'] = "There was an error in updating your profile! Please Try again!";
         header("Location: ../Login/error.php");
+        
     }
 
 function dataFilter($data)
